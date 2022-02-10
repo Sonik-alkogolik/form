@@ -1,0 +1,568 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a:active, a:focus { outline: none; }
+
+input, textarea {outline:none;}
+
+
+
+{outline:none;}
+body {
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.page {
+	max-width: 1920px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.page_block {
+	max-width: 650px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 0 0px;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ .form_text {
+ 	color: black;
+ }
+
+ .form_text_phone {
+ 	color: #be4848;
+ }
+
+ .form_text_er{
+ 	color: red;
+ }
+
+ 
+
+
+.conteiner {
+	margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.info_block {
+	margin-top: 25px;
+	max-width:608px;
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	
+
+}
+.customer_info {
+	max-width:200px;
+	width: 100%;
+	height: 46px;
+	display:flex;
+	cursor: pointer;
+	justify-content: center;
+	align-items: baseline;
+	text-align: center;
+	border-bottom: 1px solid #1B2125;
+	
+}
+.customer_info_ship {
+	max-width:200px;
+	width: 100%;
+	height: 46px;
+	display:flex;
+	cursor: pointer;
+	justify-content: center;
+	align-items: baseline;
+	text-align: center;
+	border-bottom: 1px solid #D4D9DD;
+
+}
+.customer_info_payment {
+	max-width:200px;
+	width: 100%;
+	height: 46px;
+	display:flex;
+	cursor: pointer;
+	justify-content: center;
+	align-items: baseline;
+	text-align: center;
+	border-bottom: 1px solid #D4D9DD;
+}
+
+
+
+.customer_info_text{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #3A3F42;
+}
+
+
+
+
+.form_title {
+	max-width:200px;
+	width: 100%;
+	height: 75px;
+	display:flex;
+	cursor: pointer;
+	flex-direction: column;
+	justify-content:flex-end;
+	text-align: center;
+}
+.form_title h1 {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+color: #000000;
+}
+
+#form {
+
+}
+.form_conteiner {
+max-width: 610px;
+width: 100%;
+display: flex;
+flex-direction: column;
+
+
+}
+.form_conteiner_name {
+	height: 92px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	
+}
+
+#first_name {
+	width: 290px;
+	height: 41px;
+	background: #FFFFFF;
+	border: 1px solid #dfe3e7;
+	box-sizing: border-box;
+}
+
+#form_text {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height:30px;
+color: #909599;
+
+}
+
+
+
+.first_name_input{
+max-width: 290px;
+width: 100%;
+height: 41px;
+
+}
+
+#first_name:focus{
+border: 1px solid #D4D9DD;
+}
+
+#last_text {
+	=    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #909599;
+}
+
+#last_name {
+	width: 290px;
+	height: 41px;
+	background: #FFFFFF;
+	border: 1px solid #D4D9DD;
+	box-sizing: border-box;
+}
+
+
+.conteiner_address {
+	max-width: 610px;
+	width: 100%;
+	height:75px;
+	display: block;
+}
+.address {
+
+
+}
+
+#address {
+	max-width: 610px;
+	width: 100%;
+	height: 41px;
+	background: #FFFFFF;
+	border: 1px solid #D4D9DD;
+	box-sizing: border-box;
+
+}
+.country_list {
+	max-width: 610px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.country {
+	max-width: 290px;
+	height: 77px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.country input {
+	height: 77px;
+}
+
+.select {
+    margin: 0;
+    color: black;
+    font-size: 16px;
+    width: 290px;
+    height: 41px;
+    background: #FFFFFF;
+    border: 1px solid #D4D9DD;
+    box-sizing: border-box;
+    opacity: 0.8;
+    cursor: pointer;
+    display: flex;
+
+
+}
+
+.select span {
+	padding: 10px  0 0 10px;
+}
+.select ul {
+    height: 100px;
+    width: 290px;
+    line-height: 30px;
+    border: 1px solid #D4D9DD;
+    list-style: none;
+    text-align: center;
+    overflow-x: scroll;
+    scrollbar-width: none;
+
+    z-index: 999999;
+    margin-bottom: 50px;
+    position: fixed;
+    background: #dadddf;
+}
+.select ul>li {
+	opacity: 0.6;
+}
+.select ul>li:hover{
+	border-top:0.1px solid #6c6a6a;
+	border-bottom:0.1px solid #6c6a6a;
+	border-radius: 1px;
+	width: 80%;
+	margin: 0 auto;
+	color:#000000;
+	opacity: 1;
+}
+.select ul::-webkit-scrollbar { /* webkit */
+    width: 0;
+    height: 0;
+}
+.select::before{
+	content:'';
+	right: 0;
+	width: 13px;
+	height: 9px;
+	margin-top: 12px;
+	transform: translateX(265px);
+	background:url(img/polygon.svg);
+}
+.city.select::before{
+	display: none;
+}
+.city {
+	max-width: 290px;
+	height: 77px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.city input {
+	height: 77px;
+}
+
+
+
+.postal_list {
+	max-width: 610px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.postal_code{
+max-width: 290px;
+width: 100%;
+height: 41px;
+display: flex;
+flex-direction: column;
+
+}
+.postal_input {
+	display: flex;
+
+}
+.postal_input input {
+max-width: 240px;
+width: 100%;
+height: 41px;
+background: #FFFFFF;
+border: 1px solid #D4D9DD;
+box-sizing: border-box;
+
+}
+.find button{
+max-width: 64px;
+width: 100%;
+height: 41px;
+border: 1px solid#D4D9DD;
+outline:none;
+cursor: pointer;
+color:#1E8EDF;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+background: #FFFFFF;
+}
+
+#form_text_phone{
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #909599;
+}
+
+.phone{
+max-width: 290px;
+width: 100%;
+height: 41px;
+
+}
+.phone input {
+max-width: 290px;
+width: 100%;
+height: 41px;
+background: #FFFFFF;
+border: 1px solid #D4D9DD;
+box-sizing: border-box;
+}
+
+.button_form {
+max-width: 610px;
+width: 100%;
+height: 90px;
+background: #FFFFFF;
+box-sizing: border-box;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+#continue_to_shipping {
+	border-right: #FFF;
+	border-top: #FFF;
+	border-bottom: #FFF;
+	border-left: #FFF;
+	width: 203px;
+	height: 48px;
+	background: #0077E2;
+	border-radius: 4px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #FFFFFF;
+}
+
+
+
+.reset{
+width: 290px;
+height: 50px;
+display: flex;
+justify-content: left;
+align-items: flex-end;
+text-align: left;
+color: #7E8E99;
+}
+.reset button {
+    padding-bottom: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #7E8E99;
+    border: #FFFFFF;
+    background: #FFFFFF;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: left;
+ 	cursor: pointer;
+ }
+
+
+
+.con_shipping {
+		display: none;
+}
+
+
+
+
+
+
+@media (max-width: 780px) {
+	.first_name_input {
+		max-width: 610px;
+    width: 100%;
+	}
+	.first_name {
+	max-width: 610px;
+    width: 100%;
+    height: 75px;
+    display: block;
+	}
+
+#first_name {
+	max-width: 610px;
+    width: 100%;
+    height: 41px;
+    background: #FFFFFF;
+    border: 1px solid #D4D9DD;
+    box-sizing: border-box;
+
+}
+
+
+.last_name_input {
+		max-width: 610px;
+    width: 100%;
+	}
+.last_name {
+	max-width: 610px;
+    width: 100%;
+    height: 75px;
+    display: block;
+	}
+
+#last_name {
+	max-width: 610px;
+    width: 100%;
+    height: 41px;
+    background: #FFFFFF;
+    border: 1px solid #D4D9DD;
+    box-sizing: border-box;
+
+}
+.country {
+	max-width: 610px;
+	width: 100%;
+}
+
+.select  {
+		max-width: 610px;
+	width: 100%;
+}
+.city {
+	max-width: 610px;
+	width: 100%;
+}
+.select::before {
+	transform: translateX(5px);
+}
+.phone input {
+    max-width: 290px;
+    width: 100%;
+    height: 41px;
+    margin: 0px 2px;
+}
+
+
+}
+
+
+@media (max-width: 450px) {
+	.button_form {
+    flex-direction: column;
+    justify-content: space-between;
+   align-items: center;
+   text-align: center;
+}
+
+
+.postal_list {
+
+	height: 185px;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.postal_code {
+	    height: 70px;
+	        max-width: 450px;
+}
+.phone {
+	    height: 70px;
+	        max-width: 450px;
+}
+
+.postal_input input {
+	max-width: 450px;
+}
+.phone input {
+	max-width: 450px;
+}
+
+}
